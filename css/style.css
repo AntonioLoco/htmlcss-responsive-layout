@@ -47,8 +47,8 @@ li a{
 /* Buttons */
 .btn{
     text-decoration: none;
-   padding: .5em 1em; 
-   border-radius: 20px;
+    padding: .5em 1em; 
+    border-radius: 20px;
 }
 
 .btn.white{
@@ -60,6 +60,16 @@ li a{
     background-color: var(--blue);
     color: var(--white);
     padding: .5em 3em;
+}
+
+.btn.violet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--light-violet);
 }
 
 
@@ -151,12 +161,37 @@ header .main-menu{
     padding: var(--section-gap) 0;
 }
 
-#strategic-plan .row .col{
-
-    /* DEBUG */
-    height: 250px;
-    border: 1px solid black;
+#strategic-plan .row .col:first-child{
+    color: var(--white);
 }
+
+#strategic-plan .row .col:first-child h3{
+    font-size: 3rem;
+    margin: 1.5em 0;
+}
+
+#strategic-plan .row .col:last-child{
+    background-color: var(--white);
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#strategic-plan .row .col:last-child h3{
+    margin: 1em 0;
+}
+
+#strategic-plan .row .col:last-child .btn{
+    margin: 1.5em auto;
+}
+
+
+
+
+
+
+
 
 /* Section Testimonia */
 #testimonial{

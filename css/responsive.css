@@ -136,6 +136,7 @@ Desktop 992px
 
     #strategic-plan .row{
         display: flex;
+        align-items: flex-end;
     }
 
     #strategic-plan .row .col{
