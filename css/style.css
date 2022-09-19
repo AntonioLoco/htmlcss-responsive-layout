@@ -30,6 +30,7 @@ img{
 
     /* Measurable */
     --gap-column: 1.5em;
+    --section-gap: 3em;
 }
 
 /* Layout */
@@ -70,7 +71,7 @@ header .main-menu{
 /* Section use info */
 #use-info{
     padding-top: 7em;
-    padding-bottom: 3em;
+    padding-bottom: var(--section-gap);
 }
 
 #use-info .cards .card{
@@ -91,7 +92,7 @@ header .main-menu{
 /* Section Strategic plan */
 #strategic-plan{
     background-color: var(--light-violet);
-    padding: 3em 0;
+    padding: var(--section-gap) 0;
 }
 
 #strategic-plan .row .col{
@@ -103,7 +104,7 @@ header .main-menu{
 
 /* Section Testimonia */
 #testimonial{
-    padding: 3em 0;
+    padding: var(--section-gap) 0;
 }
 
 #testimonial .text-wrapper{
@@ -139,7 +140,7 @@ header .main-menu{
 /* Section benefits */
 #benefits{
     background-color: var(--light-violet);
-    padding: 3em 0;
+    padding: var(--section-gap) 0;
 }
 
 #benefits .cards .card{
@@ -154,7 +155,7 @@ header .main-menu{
 /* Section About Us */
 #about-us{
     background-color: var(--white);
-    padding: 3em 0;
+    padding: var(--section-gap) 0;
 }
 
 #about-us .text-wrapper{
@@ -166,8 +167,20 @@ header .main-menu{
 
 #about-us .photo-wrapper{
 
-        /* DEBUG */
-        height: 150px;
-        border: 1px solid black;
+    /* DEBUG */
+    height: 150px;
+    border: 1px solid black;
+}
 
+/* Section Get Started */
+#get-started{
+    background-color: var(--light-violet);
+    padding: var(--section-gap) 0;
+}
+
+#get-started .container{
+
+    /* DEBUG */
+    border: 1px solid black;
+    height: 300px;
 }

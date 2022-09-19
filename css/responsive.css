@@ -58,6 +58,11 @@ Tablet 768px
     #about-us .photo-wrapper{
         width: 40%;
     }
+
+    /* Section Get Started */
+    #get-started .container{
+        width: 70%;
+    }
 }
 
 /* 
@@ -117,6 +122,12 @@ Desktop 992px
     #benefits .cards .card{
         margin-top: 0;
         width: calc(100% / 3 - var(--gap-column));
+    }
+
+    /* Section Get Started */
+    #get-started .container{
+        width: 50%;
+        max-width: 1000px;
     }
 
 }
