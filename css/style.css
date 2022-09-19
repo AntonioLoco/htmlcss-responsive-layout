@@ -69,8 +69,8 @@ header .main-menu{
 
 /* Section use info */
 #use-info{
-    margin-top: 7em;
-    margin-bottom: 3em;
+    padding-top: 7em;
+    padding-bottom: 3em;
 }
 
 #use-info .cards .card{
@@ -91,9 +91,6 @@ header .main-menu{
 /* Section Strategic plan */
 #strategic-plan{
     background-color: var(--light-violet);
-}
-
-#strategic-plan .row{
     padding: 2em 0;
 }
 
@@ -101,5 +98,40 @@ header .main-menu{
 
     /* DEBUG */
     height: 250px;
+    border: 1px solid black;
+}
+
+/* Section Testimonia */
+#testimonial{
+    padding: 3em 0;
+}
+
+#testimonial .text-wrapper{
+    /* DEBUG */
+    height: 150px;
+    border: 1px solid black;
+}
+
+#testimonial .cards .card{
+    background-color: var(--light-violet);
+    margin-top: 2em;
+    border-radius: 20px;
+
+    /* DEBUG */
+    height: 150px;
+    border: 1px solid black;
+}
+
+#testimonial .card .photo-card{
+
+    /* DEBUG */
+    height: 50px;
+    border: 1px solid black;
+}
+
+#testimonial .card .text-card{
+
+    /* DEBUG */
+    height: 100px;
     border: 1px solid black;
 }
