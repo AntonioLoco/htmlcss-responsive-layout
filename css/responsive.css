@@ -63,6 +63,11 @@ Tablet 768px
     #get-started .container{
         width: 70%;
     }
+
+    /* FOOTER */
+    footer .container{
+        width: 70%;
+    }
 }
 
 /* 
@@ -126,6 +131,12 @@ Desktop 992px
 
     /* Section Get Started */
     #get-started .container{
+        width: 50%;
+        max-width: 1000px;
+    }
+
+    /* FOOTER */
+    footer .container{
         width: 50%;
         max-width: 1000px;
     }

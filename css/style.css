@@ -175,6 +175,7 @@ header .main-menu{
 /* Section Get Started */
 #get-started{
     background-color: var(--light-violet);
+    color: var(--white);
     padding: var(--section-gap) 0;
 }
 
@@ -183,4 +184,15 @@ header .main-menu{
     /* DEBUG */
     border: 1px solid black;
     height: 300px;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--grey);
+    color: var(--white);
+    padding: var(--section-gap) 0;
+}
+
+footer .container{
+    text-align: center;
 }
