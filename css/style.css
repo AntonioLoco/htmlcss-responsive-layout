@@ -4,3 +4,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+html{
+    font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Variables */
+:root{
+    /* Palette */
+    --blue: #0084FD;
+    --light-blue: #B5DDFF;
+    --light-violet: #9792E4;
+    --orange: #FDC15F;
+    --grey: #333333;
+
+    --white: #ffff;
+    --black: #000000;
+}
+
+/* Layout */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: var(--blue);
+    color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+header .hamburger-menu{
+    font-size: 1.5rem;
+}
+
+header .main-menu{
+    display: none;
+}

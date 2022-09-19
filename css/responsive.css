@@ -1,0 +1,37 @@
+/* 
+Tablet 768px
+*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/* 
+Desktop 992px
+*/
+@media screen and (min-width: 992px) {
+    /* COMMON */
+    /* Layout */
+    .container{
+        width: 60%;
+        max-width: 1100px;
+    }
+
+    /* HEADER */
+    header .hamburger-menu{
+        display: none;
+    }
+
+    header .main-menu{
+        display: block;
+    }
+
+    header ul{
+        list-style-type: none;
+    }
+
+    header ul li{
+        display: inline-block;
+        margin-left: 2rem;
+    }
+
+}
