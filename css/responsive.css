@@ -28,14 +28,19 @@ Tablet 768px
     /* Section Testimonials */
     #testimonial .cards .card{
         display: flex;
+        text-align: left;
     }
 
-    #testimonial .card .photo-card{
-        width: 30%;
+    #testimonial .cards .photo-card{
+        margin: 0;
+        margin-right: 2em;
     }
 
     #testimonial .card .text-card{
         width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /* Section Benefits */
