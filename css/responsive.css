@@ -61,4 +61,17 @@ Desktop 992px
         width: 50%;
     }
 
+    /* Section Strategic plan */
+    #strategic-plan .container {
+        width: 50%;
+    }
+
+    #strategic-plan .row{
+        display: flex;
+    }
+
+    #strategic-plan .row .col{
+        width: 50%;
+    }
+
 }

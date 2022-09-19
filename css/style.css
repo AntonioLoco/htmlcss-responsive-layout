@@ -68,11 +68,9 @@ header .main-menu{
 /* MAIN */
 
 /* Section use info */
-#use-info .cards{
-    margin: 7em 0;
-
-    /* DEBUG */
-    border: 1px solid black;
+#use-info{
+    margin-top: 7em;
+    margin-bottom: 3em;
 }
 
 #use-info .cards .card{
@@ -88,4 +86,20 @@ header .main-menu{
 
 #use-info .cards .card:last-child{
     margin-bottom: 0;
+}
+
+/* Section Strategic plan */
+#strategic-plan{
+    background-color: var(--light-violet);
+}
+
+#strategic-plan .row{
+    padding: 2em 0;
+}
+
+#strategic-plan .row .col{
+
+    /* DEBUG */
+    height: 250px;
+    border: 1px solid black;
 }
