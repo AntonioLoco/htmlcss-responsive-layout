@@ -27,6 +27,9 @@ img{
 
     --white: #ffff;
     --black: #000000;
+
+    /* Measurable */
+    --gap-column: 1.5em;
 }
 
 /* Layout */
@@ -60,4 +63,29 @@ header .hamburger-menu{
 
 header .main-menu{
     display: none;
+}
+
+/* MAIN */
+
+/* Section use info */
+#use-info .cards{
+    margin: 7em 0;
+
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+#use-info .cards .card{
+    width: 100%;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    margin-bottom: 2em;
+
+    /* DEBUG */
+    height: 200px;
+    border: 1px solid black;
+}
+
+#use-info .cards .card:last-child{
+    margin-bottom: 0;
 }

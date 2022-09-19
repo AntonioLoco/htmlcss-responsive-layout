@@ -2,7 +2,23 @@
 Tablet 768px
 */
 @media screen and (min-width: 768px) {
+    /* MAIN */
+    /* Section use info */
+    #use-info .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: var(--gap-column);
+    }
+
+    #use-info .cards .card{
+        width: calc(100% / 3 - var(--gap-column));
+        margin-bottom: 0;
+    }
     
+    #use-info .cards .card:first-child{
+        width: calc(100% / 3 * 2 - var(--gap-column) / 2);
+    }
 }
 
 /* 
@@ -32,6 +48,17 @@ Desktop 992px
     header ul li{
         display: inline-block;
         margin-left: 2rem;
+    }
+
+    /* MAIN */
+    /* Section Use info */
+    #use-info .cards .card:first-child{
+        display: flex;
+    }
+
+    #use-info .cards .card:first-child .text-wrapper,
+    #use-info .cards .card:first-child .photo-wrapper{
+        width: 50%;
     }
 
 }
