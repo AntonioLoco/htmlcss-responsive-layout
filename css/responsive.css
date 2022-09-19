@@ -32,6 +32,19 @@ Tablet 768px
     #testimonial .card .text-card{
         width: 70%;
     }
+
+    /* Section Benefits */
+    #benefits .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: var(--gap-column);
+    }
+
+    #benefits .cards .card{
+        margin-top: 0;
+        width: calc(100% / 2 - var(--gap-column) / 2);
+    }
 }
 
 /* 
@@ -85,6 +98,12 @@ Desktop 992px
 
     #strategic-plan .row .col{
         width: 50%;
+    }
+
+    /* Section Benefits */
+    #benefits .cards .card{
+        margin-top: 0;
+        width: calc(100% / 3 - var(--gap-column));
     }
 
 }
