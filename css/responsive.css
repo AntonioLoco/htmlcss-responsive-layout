@@ -20,6 +20,11 @@ Tablet 768px
         width: calc(100% / 3 * 2 - var(--gap-column) / 2);
     }
 
+    #use-info .card .photo-wrapper img{
+        width: 60%;
+        margin: 0;
+    }
+
     /* Section Testimonials */
     #testimonial .cards .card{
         display: flex;
@@ -105,9 +110,23 @@ Desktop 992px
         display: flex;
     }
 
-    #use-info .cards .card:first-child .text-wrapper,
+    #use-info .cards .card:first-child .text-wrapper{
+        width: 60%;
+    }
+
     #use-info .cards .card:first-child .photo-wrapper{
-        width: 50%;
+        width: 40%;
+    }
+
+    #use-info .card .photo-wrapper{
+        position: relative;
+    }
+
+    #use-info .card .photo-wrapper img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
     /* Section Strategic plan */
@@ -141,4 +160,18 @@ Desktop 992px
         max-width: 1000px;
     }
 
+}
+
+
+/* 
+Large Desktop 1200px
+ */
+@media screen and (min-width: 1200px) {
+
+    /* MAIN */
+    /* Section use info */
+    #use-info .card .photo-wrapper img{
+        max-width: 200px; 
+    }
+    
 }

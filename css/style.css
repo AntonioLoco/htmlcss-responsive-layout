@@ -46,6 +46,7 @@ li a{
 
 /* Buttons */
 .btn{
+    text-decoration: none;
    padding: .5em 1em; 
    border-radius: 20px;
 }
@@ -53,6 +54,12 @@ li a{
 .btn.white{
     background-color: var(--white);
     color: var(--black);
+}
+
+.btn.blue{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: .5em 3em;
 }
 
 
@@ -95,14 +102,47 @@ header .main-menu{
     background-color: var(--light-blue);
     border-radius: 20px;
     margin-bottom: var(--gap-column);
+    padding: 1.5em;
+    text-align: center;
+}
 
-    /* DEBUG */
-    height: 200px;
-    border: 1px solid black;
+#use-info .cards .card:first-child{
+    text-align: left;
+    padding-bottom: 0;
 }
 
 #use-info .cards .card:last-child{
     margin-bottom: 0;
+}
+
+#use-info .card h3{
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+#use-info .card .photo-wrapper{
+    margin-top: 2em;
+}
+
+#use-info .card .photo-wrapper img{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+#use-info .card .icon-wrapper{
+    color: var(--blue);
+    margin-bottom: 1em;
+}
+
+.card .icon-wrapper i{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#use-info .card p{
+    margin-bottom: 1.5rem;
+    color: var(--grey);
 }
 
 /* Section Strategic plan */
