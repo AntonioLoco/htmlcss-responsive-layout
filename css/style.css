@@ -91,7 +91,7 @@ header .main-menu{
 /* Section Strategic plan */
 #strategic-plan{
     background-color: var(--light-violet);
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 #strategic-plan .row .col{
@@ -149,4 +149,25 @@ header .main-menu{
     
     /* DEBUG */
     height: 100px;
+}
+
+/* Section About Us */
+#about-us{
+    background-color: var(--white);
+    padding: 3em 0;
+}
+
+#about-us .text-wrapper{
+
+    /* DEBUG */
+    height: 250px;
+    border: 1px solid black;
+}
+
+#about-us .photo-wrapper{
+
+        /* DEBUG */
+        height: 150px;
+        border: 1px solid black;
+
 }

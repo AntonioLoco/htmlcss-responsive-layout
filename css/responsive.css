@@ -45,6 +45,19 @@ Tablet 768px
         margin-top: 0;
         width: calc(100% / 2 - var(--gap-column) / 2);
     }
+
+    /* Section About Us */
+    #about-us .container{
+        display: flex;
+    }
+
+    #about-us .text-wrapper{
+        width: 60%;
+    }
+
+    #about-us .photo-wrapper{
+        width: 40%;
+    }
 }
 
 /* 
