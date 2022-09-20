@@ -77,7 +77,12 @@ Tablet 768px
 
     /* Section Get Started */
     #get-started .container{
-        width: 70%;
+        width: 60%;
+    }
+
+    #get-started .container p{
+        width: 80%;
+        margin: 0 auto 2em;
     }
 
     /* FOOTER */
@@ -163,6 +168,19 @@ Desktop 992px
     #get-started .container{
         width: 50%;
         max-width: 1000px;
+    }
+
+    #get-started .container h3{
+        font-size: 2.5rem;
+    }
+
+    #get-started .container h2{
+        font-size: 5rem;
+    }
+
+
+    #get-started .container p{
+        width: 50%;
     }
 
     /* FOOTER */

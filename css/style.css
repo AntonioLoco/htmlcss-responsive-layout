@@ -316,12 +316,6 @@ header .main-menu{
 }
 
 
-
-
-
-
-
-
 /* Section Get Started */
 #get-started{
     background-color: var(--light-violet);
@@ -330,10 +324,49 @@ header .main-menu{
 }
 
 #get-started .container{
+    text-align: center;
+}
 
-    /* DEBUG */
-    border: 1px solid black;
-    height: 300px;
+#get-started .container h4{
+    color: lightgrey;
+    font-weight: 100;
+    margin-bottom: .5em;
+}
+
+#get-started .container h3{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+#get-started .container h2{
+    color: var(--orange);
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+#get-started .container p{
+    margin-bottom: 2em;
+}
+
+#get-started .container a.btn{
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: var(--light-violet);
+    padding: .8em 3em;
+    border-radius: 30px;
+}
+
+#get-started ul{
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+#get-started ul li{
+    display: inline-block;
+}
+
+#get-started ul li a{
+    text-decoration: underline;
 }
 
 /* FOOTER */
