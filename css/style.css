@@ -211,20 +211,12 @@ header .main-menu{
     color: var(--white);
 }
 
-#testimonial .card .photo-card{
+#testimonial .card .photo-card img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    object-fit: cover;
     margin: 0 auto 1em;
-    overflow: hidden;
-    position: relative;
-}
-
-#testimonial .card .photo-card img{
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(1.5);
 }
 
 #testimonial .card .text-card h4{
