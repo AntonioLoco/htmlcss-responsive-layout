@@ -57,15 +57,21 @@ Tablet 768px
     }
 
     /* Section About Us */
-    #about-us .container{
+    #about-us .row{
         display: flex;
+        align-items: flex-start;
     }
 
-    #about-us .text-wrapper{
+    #about-us .row .col{
+        padding: 2em;
+    }
+
+    #about-us .col:first-child{
         width: 60%;
+        margin-bottom: 0;
     }
 
-    #about-us .photo-wrapper{
+    #about-us .col:last-child{
         width: 40%;
     }
 

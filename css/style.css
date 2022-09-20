@@ -11,11 +11,20 @@ html{
     font-family: 'PT Sans', sans-serif;
 }
 
+/* Img Style */
 img{
     max-width: 100%;
     display: block;
 }
 
+#circle-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Style list */
 li a{
     text-decoration: none;
     color: inherit;
@@ -219,16 +228,12 @@ header .main-menu{
     color: var(--white);
 }
 
-#testimonial .card .photo-card img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto;
-}
-
 #testimonial .card .text-card h4{
     margin-top: 1em;
+}
+
+#testimonial .card .photo-card img{
+    margin: 0 auto;
 }
 
 
@@ -236,6 +241,13 @@ header .main-menu{
 #benefits{
     background-color: var(--light-violet);
     padding: var(--section-gap) 0;
+}
+
+#benefits .container h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1em;
 }
 
 #benefits .cards .card{
@@ -262,25 +274,53 @@ header .main-menu{
 }
 
 /* Section About Us */
-/* Mettere in row e 2 col */
 #about-us{
     background-color: var(--white);
     padding: var(--section-gap) 0;
 }
 
-#about-us .text-wrapper{
-
-    /* DEBUG */
-    height: 250px;
-    border: 1px solid black;
+#about-us .col:first-child{
+    margin-bottom: 2em;
 }
 
-#about-us .photo-wrapper{
-
-    /* DEBUG */
-    height: 150px;
-    border: 1px solid black;
+#about-us .col h3{
+    color: var(--light-violet);
+    font-size: 2.5rem;
+    margin-bottom: .5em;
 }
+
+#about-us .col p:first-of-type{
+    margin-bottom: 2em;
+}
+
+#about-us .col figure{
+    display: inline-block;
+    position: relative;
+}
+
+#about-us .col .quote{
+    font-size: 10rem;
+    color: var(--light-violet);
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+#about-us .col:last-child h3{
+    font-size: 1.5rem;
+}
+
+#about-us .col a.btn.violet{
+    letter-spacing: 1px;
+    padding: .5em 1em;
+}
+
+
+
+
+
+
+
 
 /* Section Get Started */
 #get-started{
