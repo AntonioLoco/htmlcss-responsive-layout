@@ -87,7 +87,7 @@ Tablet 768px
 
     /* FOOTER */
     footer .container{
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -185,8 +185,8 @@ Desktop 992px
 
     /* FOOTER */
     footer .container{
-        width: 50%;
-        max-width: 1000px;
+        width: 40%;
+        max-width: 400px;
     }
 
 }
@@ -202,5 +202,4 @@ Large Desktop 1200px
     #use-info .card .photo-wrapper img{
         max-width: 200px; 
     }
-    
 }
