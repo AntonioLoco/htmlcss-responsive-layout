@@ -46,6 +46,7 @@ li a{
 
 /* Buttons */
 .btn{
+    display: inline-block;
     text-decoration: none;
     padding: .5em 1em; 
     border-radius: 20px;
@@ -62,7 +63,7 @@ li a{
     padding: .5em 3em;
 }
 
-.btn.violet{
+.btn.download{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,6 +71,13 @@ li a{
     height: 35px;
     border-radius: 50%;
     background-color: var(--light-violet);
+}
+
+.btn.violet{
+    color: var(--white);
+    background-color: var(--light-violet);
+    letter-spacing: 3px;
+    padding: .5em 3em;
 }
 
 
@@ -216,7 +224,7 @@ header .main-menu{
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0 auto 1em;
+    margin: 0 auto;
 }
 
 #testimonial .card .text-card h4{
@@ -234,12 +242,27 @@ header .main-menu{
     background-color: var(--white);
     border-radius: 20px;
     margin-top: var(--gap-column);
-    
-    /* DEBUG */
-    height: 100px;
+    padding: 1em;
+}
+
+#number{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--light-violet);
+}
+
+#benefits .cards .card h3{
+    color: var(--light-violet);
+    font-size: 1.3rem;
+    margin: .5em 0;
+}
+
+#benefits .cards .card p{
+    margin-bottom: 1.5em;
 }
 
 /* Section About Us */
+/* Mettere in row e 2 col */
 #about-us{
     background-color: var(--white);
     padding: var(--section-gap) 0;

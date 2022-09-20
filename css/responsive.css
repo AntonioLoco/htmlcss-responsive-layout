@@ -150,8 +150,7 @@ Desktop 992px
 
     /* Section Benefits */
     #benefits .cards .card{
-        margin-top: 0;
-        width: calc(100% / 3 - var(--gap-column));
+        width: calc(100% / 3 - (var(--gap-column) * 2 / 3));
     }
 
     /* Section Get Started */
